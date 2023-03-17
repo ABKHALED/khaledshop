@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khaled</title>
+    <link rel="stylesheet" href="/normal.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/all.min.css">
+</head>
+<body>
+  <div class="main-section sec-section">
+    <div class="overlay"></div>
+    <div class="container">
+      <nav class="nav-sec-section">
+        <div class="burger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="overlay-po"></div>
+        <ul class="links">
+          <i class="fa-solid fa-xmark " id="nav-close"></i>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/allProductes.html">Products</a></li>
+          <li><a href="/about.html">About</a></li>
+        </ul>
+        <div class="log">
+          <img src="/img/logo-black.svg" alt="">
+        </div>
+        <div class="cart">
+          <div class="car">
+            <span class="count">0</span>
+            <i  class="cart-btn fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </nav>
+      
+  </div>
+  </div>
+  <div class="heder-prod">
+    <div class="container">
+      <h1 class="prodct-big-title" >
+        Home / Products
+    </h1>
+    </div>
+  </div>
+  <div class="all-products">
+    <div class="container">
+      <div class="left-sid">
+        <div class="left-holder">
+            <input type="text" placeholder="Search..." id="search">
+        <h4>Company</h4>
+        <ul class="filter">
+          <li data-name="all" class="active">ALL</li>
+          <li data-name="ikea" >Ikea</li>
+          <li data-name="marcos">Marcos</li>
+          <li data-name="caressa">Caressa</li>
+          <li data-name="liddy">Liddy</li>
+        </ul>
+        <div class="range">
+            <h4>price</h4>
+            <input type="range" min="0" max="8000" id="num" value="8000" step="100">
+            <p>Value :$<span class="number">8000</span></p>
+        </div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="prudects-holder">
+                <!-- <div class="box">
+                    <div class="image">
+                      <img src="/img/cf460909.jfif" alt="">
+                      <div class="icons">
+                        <a href="/prodctInfo.html"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <span class="cart-btn"><i class="fa-solid fa-cart-shopping"></i></span>
+                      </div>
+                    </div>
+                    <div class="footer">
+                      <p>High-Back Bench</p>
+                      <span>$9.99</span>
+                    </div>
+                  </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slid-overlay"></div>
+  <div class="slid">
+    <div class="heder">
+      <i class="close-slid fa-solid fa-xmark"></i>
+        <h2>Your Bag</h2>
+    </div>
+    <div class="holder">
+        <!-- <div class="box">
+            <div class="left-side">
+                <img src="/img/cf460909.jfif" alt="">
+            </div>
+            <div class="midel-side">
+                <p>High-Back Bench</p>
+                <p>$9.99</p>
+                <p class="remove">remove</p>
+            </div>
+            <div class="right-side">
+                <i class="fa-solid fa-arrow-up"></i>
+                <span class="pice">0</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </div> -->
+    </div>
+    <div class="footer">
+        <p>Total : $ <span class="tootle-amount">0</span></p>
+        <button>CHECKOUT</button>
+    </div>
+  </div>
+<script type="module" src="/allpro.js" ></script>
+</body>
+</html>
